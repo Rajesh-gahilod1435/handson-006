@@ -1,0 +1,188 @@
+.backgoundcon{
+    background-image: url(./shara\ desert.jpg);
+    background-size: cover;
+}
+.incondiv{
+    position: relative;
+    top: 20px;
+    right: 82px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-evenly;
+}
+.bi-list li{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 80px;
+    color: white;
+    position: relative;
+    left: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.sahara{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 400px;
+    height: 200px;
+    /* border: 5px solid red; */
+    position: relative;
+    top: 120px;
+    left: 90px;
+    
+}
+button{
+    width: 180px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.chaildcontenair{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: end;
+    grid-gap: 30px;
+    position: relative;
+    right: 60px;
+    bottom: 180px;
+    color: white;
+}
+.box1{
+    background-image: url(./pic-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 15px;
+}
+.chaild h5 {
+    line-height: 0px;
+    margin: 20px;
+
+}
+.chaild p{
+    line-height: 20px;
+    margin: 20px;
+
+}
+.chaild:hover{
+
+    position: relative;
+    bottom: 10px;
+}
+.box2{
+    background-image: url(./pic-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 15px;
+}
+.box3{
+    background-image: url(./pic-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 15px;
+}
+.box4{
+    background-image: url(./pic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 15px;
+}
+@media (min-width:300px) and (max-width:600px) {
+.backgoundcon{
+    height: 350vh;
+}
+    .incondiv{
+        top: 10px;
+        left: 20px;
+    }
+    
+    .bi-list li{
+        margin-left: 40px;
+        position: relative;
+        left: 30px;
+    }
+    .manu{
+        position: absolute;
+        bottom: 32px;
+        right: 10px;
+    }
+    
+    .sahara{
+        width: 280px;
+        height: 200px;
+        top: 10px;
+        left: 20px;
+        
+    }
+    button{
+        width: 180px;
+        padding: 10px;
+    }
+    .chaildcontenair{
+        grid-template-columns: 200px ;
+        grid-gap: 20px;
+        right: 40px;
+        bottom: 0px;
+        top: 50px;
+    }
+                                
+}
+@media (min-width:856px) and (max-width:900px) {
+    .backgoundcon{
+        background-image: url(./shara\ desert.jpg);
+        background-size: 180vh;
+        height: 230vh;
+    
+        background-repeat: repeat;
+    }
+    .incondiv{
+        top: 15px;
+        left: -40px;
+    }
+    .bi-list li{
+        margin-left: 10px;
+        position: relative;
+        left: 30px;
+    }
+    li{
+        margin: 20px;
+    }
+    .sahara{
+        width: 600px;
+        height: 300px;
+        justify-content: center;
+        left: 100px;
+    }
+    button{
+        width: 180px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .chaildcontenair{
+        grid-template-columns: 600px ;
+        grid-gap: 30px;
+        right: 90px;
+        bottom: 0px;
+        top: 50px;
+    }
+    .box1{
+        height: 310px;
+    }
+    .box2{
+        height: 310px;
+    }
+    .box3{
+        height: 310px;
+    }
+    .box4{
+        height: 310px;
+        
+    }
+}
